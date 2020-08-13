@@ -48,7 +48,7 @@ h2 {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -606,6 +606,27 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+
+    nav ul{
+        display: grid;
+        justify-content: start;
+        width: 100%;
+        background-color:  rgba(242, 5, 92, 0.322);     
+    }
+
+    nav ul li a{
+        color:#fff;
+    }
+
+    h1 {
+        font-family:'Orbitron', sans-serif;
+        font-size: 80px;
+        position: absolute;
+        top: 50vh;
+    }
+    h4 {
+        font-size: 80%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -616,11 +637,6 @@ fieldset {
 }
 
 @media (max-width: 500px) {
-    h1 {
-        font-family: 'Playfair Display', serif;
-        font-size: 50px;
-        line-height: 50px;
-    }
 
     #home {
         width: 100%;   
