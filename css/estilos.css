@@ -145,16 +145,6 @@ a.active {
     margin: 0 auto;
 }
 
-.about-border {
-    position: absolute;
-    border: 20px solid #F2055C;
-    width: 400px;
-    height: 400px;
-    top: 70px;
-    left: 115px;
-    z-index: -1
-    
-}
 
 
 /* experience section
@@ -615,17 +605,19 @@ fieldset {
     h1 {
         font-family:'Orbitron', sans-serif;
         font-size: 80px;
+        Color: #F2055C;
         position: absolute;
         top: 50vh;
     }
     h4 {
+        Color: #F2055C;
         font-size: 80%;
     }
 
     .about-img-div img {
         margin: 0;
         position: relative;
-        left: 30%;
+        left: 10%;
     }
 }
 
@@ -649,9 +641,6 @@ fieldset {
     .disply-table {
 
         height: 600px;
-    }
-    .about-border {
-        width: 70%;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
