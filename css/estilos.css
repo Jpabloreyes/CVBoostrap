@@ -624,6 +624,7 @@ fieldset {
 
     #home {
         width: 100%;   
+        background-size: contain;
         background-repeat: no-repeat;
 
     }
