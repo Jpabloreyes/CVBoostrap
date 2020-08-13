@@ -651,7 +651,7 @@ fieldset {
         height: 600px;
     }
     .about-border {
-        width: 280px;
+        width: 70%;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
