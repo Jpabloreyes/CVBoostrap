@@ -33,7 +33,7 @@ h4:before {
     display: block;
     height: 2px;
     background: #F2055C;
-    top: 18px;
+    top: 200px;
 }
 
 h2 {
@@ -60,6 +60,12 @@ body {
 .h-50 {
     height: 50px;
 }
+
+.section-video video{
+    width: 100%;
+    height: auto;
+}
+
 
 
 
