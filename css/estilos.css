@@ -607,15 +607,9 @@ fieldset {
         padding: 0 2px;
     }
 
-    nav ul{
-        display: grid;
-        justify-content: start;
-        width: 100%;
-        background-color:  rgba(242, 5, 92, 0.322);     
-    }
-
     nav ul li a{
-        color:#fff;
+        color: #000000;
+        background-color: rgba(243, 243, 243, 0.356);
     }
 
     h1 {
@@ -626,6 +620,12 @@ fieldset {
     }
     h4 {
         font-size: 80%;
+    }
+
+    .about-img-div img {
+        margin: 0 auto;
+        position: relative;
+        left: 68px;
     }
 }
 
@@ -651,7 +651,7 @@ fieldset {
         height: 600px;
     }
     .about-border {
-        width: 265px;
+        width: 280px;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
@@ -666,4 +666,5 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+
 }
