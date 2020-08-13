@@ -623,9 +623,9 @@ fieldset {
     }
 
     .about-img-div img {
-        margin: 0 auto;
+        margin: 0;
         position: relative;
-        left: 80px;
+        left: 30%;
     }
 }
 
