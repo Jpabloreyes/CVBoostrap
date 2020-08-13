@@ -605,12 +605,12 @@ fieldset {
     h1 {
         font-family:'Orbitron', sans-serif;
         font-size: 80px;
-        Color: #F2055C;
+        color:#F2055C;
         position: absolute;
         top: 50vh;
     }
     h4 {
-        Color: #F2055C;
+        background-Color: #F2055C;
         font-size: 80%;
     }
 
