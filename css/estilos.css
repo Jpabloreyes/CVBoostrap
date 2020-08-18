@@ -13,28 +13,13 @@ h1 {
 
 h4 {
     font-family:'Orbitron', sans-serif;
-    text-transform: capitalize;
     letter-spacing: 2px;
-    position: relative;
     color: #fff;
-    margin-left: 40px;
-    font-weight: 500;
-    background-color: #F2055C;
+    font-weight: 100;
+    background-color: #f2055c8f;
     padding: 5px 5px;
-    display:unset;
-
 }
 
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #F2055C;
-    top: 200px;
-}
 
 h2 {
     font-family:'Orbitron', sans-serif;
@@ -59,6 +44,7 @@ body {
 
 .size-100 {
     font-size: 120px;
+   
 }
 
 .h-50 {
@@ -100,7 +86,7 @@ nav li {
 
 nav li a {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #000000;
     font-size: 11px;
     font-weight: bold;
@@ -620,8 +606,7 @@ fieldset {
     }
 
     nav ul li a{
-        color: #000000;
-        background-color: rgba(243, 243, 243, 0.356);
+        color: #000000; 
     }
 
     h1 {
