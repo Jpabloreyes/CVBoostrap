@@ -606,7 +606,9 @@ fieldset {
     }
 
     nav ul li a{
-        color: #000000; 
+        color: #ffff;
+        background-color: #e9266d;
+
     }
 
     h1 {
