@@ -8,15 +8,14 @@ h1 {
     font-size: 80px;
     font-weight: 400;
     line-height: 70px;
-    color: #F2055C;
-}
+    color: #f24405}
 
 h4 {
     font-family:'Orbitron', sans-serif;
     letter-spacing: 2px;
-    color: #fff;
+    color: #ffffff;
+    background-color: #f25c05;
     font-weight: 100;
-    background-color: #f2055c8f;
     padding: 5px 5px;
 }
 
@@ -24,7 +23,7 @@ h4 {
 h2 {
     font-family:'Orbitron', sans-serif;
     text-transform: capitalize;
-    color: #F2055C;
+    color: #f24405;
     font-weight: 100;
 
 }
@@ -107,17 +106,18 @@ a:focus {
 }
 
 a:hover {
-    color: #F2055C;
+    color: #f25c05;
     text-decoration: none;
 }
 
 a.active {
-    color: #F2055C;
+    color: #f25c05;
 }
 
 /* Home Section */
 #home {
     background: url(../img/home-bg-2.jpg);
+    background-color: #26262667;
     background-size: cover;
     height: 100vh;
 }
@@ -135,6 +135,7 @@ a.active {
 #about {
      height: auto;
     padding: 100px 0;
+    background-color: #75757570;
 
 }
 #about .sobremi {
@@ -146,7 +147,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #26262667;
 }
 
 .experience-row {
@@ -155,16 +156,15 @@ a.active {
 }
 
 .experience-row h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #F2055C;
     font-size: 16px;
     font-weight: bold
 }
 
 .experience-row p {
-    color: #888;
+    color: #757575;
     margin-top: 20px;
     font-size: 15px;
 }
@@ -198,11 +198,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: rgba(242, 5, 92, 0.349);
+    background-color:#f24405;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 rgba(242, 5, 92, 0.349);
+    box-shadow: inset 40em 0 0 0 rgba(255, 94, 0, 0.534);
 }
 
 .timeline-event-copy {
@@ -237,13 +237,13 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color:  rgba(242, 5, 92, 0.349);
-    outline: 50px solid #f3f3f3;
+    background-color: #f25c05;
+    outline: 10px solid #f24405;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
     top: 0;
-    left: 3em;
+    left: 2em;
     width: 1em;
     height: 1em;
 }
@@ -258,8 +258,8 @@ a.active {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: black;
-    box-shadow: inset 0 0 0 0em  rgba(242, 5, 92, 0.349);
+    background-color: #757575;
+    box-shadow: inset 0 0 0 0em;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -270,6 +270,7 @@ a.active {
 ==================================================*/
 
 #projects {
+    background-color: #75757570;
     padding: 100px 0;
 }
 
@@ -299,7 +300,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: rgba(242, 5, 92, 0.349);
+    background-color: rgba(255, 94, 0, 0.534);
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -322,7 +323,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgba(242, 5, 92, 0.616);
+    background-color: rgba(255, 94, 0, 0.534);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -345,7 +346,8 @@ a.active {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
+    color: #ffffff;
+    background-color: #f244057a;
     font-size: 18px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
@@ -357,7 +359,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #F2055C;
+    background-color: #f24405;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -473,7 +475,7 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #26262667;
 }
 
 #contact-form input,
@@ -606,15 +608,15 @@ fieldset {
     }
 
     nav ul li a{
-        color: #ffff;
-        background-color: #e9266d;
+        color: #f24405;
+
 
     }
 
     h1 {
         font-family:'Orbitron', sans-serif;
         font-size: 80px;
-        color:#F2055C;
+        color:#f24405;
         position: absolute;
         top: 50vh;
     }
