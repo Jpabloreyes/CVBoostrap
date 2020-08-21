@@ -21,6 +21,15 @@ h4 {
 }
 
 
+h5 {
+    font-family:'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 5px 5px;
+    margin-top: 30px;
+}
+
 h2 {
     font-family:'Orbitron', sans-serif;
     text-transform: capitalize;
@@ -238,7 +247,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #f25c05;
+    background-color: #f24405;
     outline: 10px solid #f24405;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -610,11 +619,11 @@ fieldset {
 
     
     nav ul {
-        background: #ffffff;
+        background: #ffffff86;
     }
     nav ul li a{
         justify-content: space-between;
-        color: #757575;
+        color: #333333;
 
 
     }
@@ -639,8 +648,8 @@ fieldset {
 
 @media (max-width: 768px) {
     .timeline-event-copy {
-        width: 90%;
-        left: 2em;
+        width: 100%;
+        left: 1em;
     }
 }
 
@@ -664,6 +673,84 @@ fieldset {
         bottom: 40px;
         text-align: center;
         vertical-align: bottom;
+    }
+
+
+    #about {
+        padding: 50px 0 0 0;
+    }
+
+    #about .sobremi {
+        line-height: 40px;
+    }
+
+    #about .sobremi h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #about .sobremi p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #about .sobremimg {
+        position: relative;
+        max-width: 130%;
+        right: 40px;
+    }
+
+    #experience {
+        text-align: center;
+        padding: 0;
+    }
+
+    #experience h2 {
+        text-align: center;
+    }
+
+    #experience h3 {
+        text-align: center;
+    }
+
+    #experience h5 {
+        margin-top: 10px;
+        font-size: 20px;
+        background-color: #f25c0580;
+        text-align: center;
+    }
+
+    .timeline-event-copy h3 {
+        color:initial;
+    }
+
+    .timeline-event-thumbnail {
+        display: block;
+        font-size: 17px;
+        background-color: #f25c0580;
+        text-align: center;
+    }
+
+    .timeline-event-copy p:not(.timeline-event-thumbnail) {
+        line-height: 35px;
+        padding: 0;
+    }
+
+    .timeline:before {
+      left: 1em;
+    }
+    
+    .timeline-event-icon {
+        left: 1em;
+    }
+
+    ol, ul {
+    margin-top: 0;
+    margin-bottom: 70px;
+    }
+    
+    #projects {
+        padding: 50px 0;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
