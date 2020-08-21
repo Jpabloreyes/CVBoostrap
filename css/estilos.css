@@ -6,7 +6,7 @@
 h1 {
     font-family:'Orbitron', sans-serif;
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 70px;
     color: #f24405}
 
@@ -17,6 +17,7 @@ h4 {
     background-color: #f25c05;
     font-weight: 100;
     padding: 5px 5px;
+    margin-top: 30px;
 }
 
 
@@ -116,7 +117,7 @@ a.active {
 
 /* Home Section */
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background:url(../img/home-bg-2.jpg);
     background-color: #75757570;
     background-size: cover;
     height: 100vh;
@@ -607,8 +608,13 @@ fieldset {
         padding: 0 2px;
     }
 
+    
+    nav ul {
+        background: #ffffff;
+    }
     nav ul li a{
-        color: #f24405;
+        justify-content: space-between;
+        color: #757575;
 
 
     }
@@ -617,12 +623,11 @@ fieldset {
         font-family:'Orbitron', sans-serif;
         font-size: 80px;
         color:#f24405;
-        position: absolute;
-        top: 50vh;
     }
     h4 {
         color:#fff;
-        font-size: 80%;
+        font-size: 100%;
+        background: radial-gradient(circle, #f25c05, transparent);
     }
 
     .about-img-div img {
@@ -642,16 +647,23 @@ fieldset {
 @media (max-width: 500px) {
 
     #home {
-        width: 100%;   
-        background-size: contain;
+        background-position-x: -600px;
+        width: 100%;
         background-repeat: no-repeat;
 
     }
 
     #home,
     .disply-table {
+        height: 740px;
+    }
 
-        height: 600px;
+    .table-cell {
+        position: relative;
+        left: 20px;
+        bottom: 40px;
+        text-align: center;
+        vertical-align: bottom;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
@@ -661,7 +673,7 @@ fieldset {
 
 @media (max-width: 420px) {
     nav li {
-        margin: 6px;
+        margin: 4px;
     }
     nav li a {
         font-size: 10px;
