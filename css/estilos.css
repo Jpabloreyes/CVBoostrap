@@ -696,8 +696,8 @@ fieldset {
 
     #about .sobremimg {
         position: relative;
-        max-width: 130%;
-        right: 40px;
+        max-width: 100%;
+        
     }
 
     #experience {
